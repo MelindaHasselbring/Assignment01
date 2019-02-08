@@ -72,10 +72,10 @@ var chineseYear = "pig";
 var yearNow = year == chineseYear + year;
 window.console.log("It's year of the " + chineseYear + ", "+ year);
 
-output:
+// output:
 "It's year of the pig, 2019"
 
-For the second variable, add a number and a Boolean and display the coerced result. 
+// For the second variable, add a number and a Boolean and display the coerced result. 
 var num = (200==200) + 200;
 num = 400;
 
@@ -89,7 +89,7 @@ Ans: by using the escape sequence.
 
 
 // STEP 9.	Create a variable that produces a null value in the console window. 
-Create a variable that produces an undefined value in the console window.
+// Create a variable that produces an undefined value in the console window.
 var x = 200;
 var y = null;
 x = null;
