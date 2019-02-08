@@ -21,7 +21,7 @@ var y = 5;
 var z = 6;
 (x == y)       // Returns true
 (x == z)       // Returns false
-var m = true;
+
 // d.) null literal expression
     var x = null;
 
