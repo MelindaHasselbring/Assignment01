@@ -7,10 +7,6 @@ var summerMonth;
 var myLibraryFunction;
 
 
-
-
-
-
 // STEP 2 Give me an example of the ff.
 // a.) numeric literal expression
     var total = 3.14; 
@@ -34,7 +30,6 @@ var m = true;
 // STEP 3 Give me two examples of complex / variable expressions.
     var GtandTotal = totalAmound + tax;
     var x = "child" + 16;
-
 
 
 
