@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-console
 // Exercises 1  Convert the following identifiers to Camel Case notation:
 var someMonth;
 function theMonth();
@@ -9,26 +8,24 @@ var myLibraryFunction;
 
 // Exercise 2 Give me an example of the ff.
 // a.) numeric literal expression
-    var total = 3.14; 
+3.14  
 
 // b.) string literal expression
-    var fName = "Melinda Hasselbring";
+"Melinda Hasselbring"
 
 // c.) Boolean literal expression
 
-var x = 5;
-var y = 5;
-var z = 6;
-(x == y)       // Returns true
-(x == z)       // Returns false
+true
+false
+
 
 // d.) null literal expression
-    var x = null;
+null
 
 
 
 // Exercises 3 Give me two examples of complex / variable expressions.
-    var GtandTotal = totalAmound + tax;
+    var GtandTotal = (totalAmount + tax)/4;
     var x = "child" + 16;
 
 
@@ -50,7 +47,7 @@ var strMayWeContactYou;
 // Exercise 5.	Take the 9 variables that you created above and demonstrate 3 methods for declaring and assigning values to those variables.
     strFirstName = "Melinda";
     strLastName = "Hasselbring";
-    strZipCode = "92110";
+    numYourAge = 37;
 
 
 // Exercise 6.	Create a variable. 
@@ -63,28 +60,30 @@ var strMayWeContactYou;
 // Exercises 7.	Create two variables. 
 // For the first variable, add a Boolean and a string and display the coerced result. 
 var year = 2019;
-var chineseYear = "pig";
-var yearNow = year == chineseYear + year;
-window.console.log("It's year of the " + chineseYear + ", "+ year);
+var isYearOfThePig == true;
+window.console.log(year + " is year of the pig.");
 
 // output:
-"It's year of the pig, 2019"
+"2019 is year of the pig."
 
 // For the second variable, add a number and a Boolean and display the coerced result. 
-var num = (200==200) + 200;
-num = 400;
 
+var x = 0;
+Boolean(x); 
 
+// output:
+false
 // Exercises 8.	Is the following string literal valid? If not, how would you fix it?
 
 var someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
 window.console.log(someString);
-// Ans: by using the escape sequence.
-'Who once said\,"Only two things are infinite\, the universe and human stupidity\, and I\'m not sure about the former."';
+// Ans: No, by using the  backslash escape character.
+'Who once said, \"Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
 
 
 // Exercises 9.	Create a variable that produces a null value in the console window. 
 // Create a variable that produces an undefined value in the console window.
+// by explicitly assigning a null value in the variable.
 var x = 200;
 var y = null;
 x = null;
@@ -124,15 +123,15 @@ typeof myAddress;
 // STEP 12.	Declare a variable called name and set it equal to your name. 
 // Substitute your name in the previous alert string with the variable instead.
 
- var fullName = "melinda Hasselbring";
- alert("Hello " + fullName  + ", welcome to the JavaScript class!");
+ var name = "melinda Hasselbring";
+ alert("Hello " + name  + ", welcome to the JavaScript class!");
 
 
 // STEP 13.	Declare a variable called course and set it equal to “JavaScript”. 
 // Rework your alert string so that it displays the string of text but using the variables as opposed to hard coded text.
 
  var course = “JavaScript”;
- alert("Hello " + fullName  + ", welcome to the " + course + " class!");
+ alert("Hello " + name  + ", welcome to the " + course + " class!");
 
 // Exercise 14.	Rework the above string so that a line break is added right before the word “Welcome”. Your alert box should display as follows:
 
@@ -145,7 +144,7 @@ typeof myAddress;
 
 // Exercise 15.	Replace the hardcoded string of your name with a prompt that asks the user for their name. The prompt’s response will now be captured in the name variable. 
 
-var name = prompt("What is your name?", fullName);
+var name = prompt("What is your name?", name);
 
 
 // Exercise 16.	Replace the hardcoded string of the class you are taking with a prompt that asks the user for the class they are taking. The prompt’s response will now be captured in the course variable.
@@ -159,11 +158,11 @@ var course = prompt("What course are you taking?", course);
 // Display the sum of those two numbers in the console window. 
 
 var x = 10;
-var y = 10;
+var y = 20;
 var total = x + y;
 window.console.log(total);
 
-// output : 20
+// output : 30
 
 
 // Exercise 18.	
@@ -197,7 +196,9 @@ window.console.log(x);
 // The result should be 2. If you got 6.66 try again.
 
 var x = 20;
-x /=3;
+var y = 3;
+
+x = x % y;
 window.console.log(x);
 
 
